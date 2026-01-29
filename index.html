@@ -6,6 +6,78 @@
     <title>project-0d304f1769697791417</title>
 </head>
 <body>
-    <!-- Blank white page -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #ff5252;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Amazing Website</h1>
+            <p>Discover the power of modern web design. We're here to create stunning experiences that captivate your audience.</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
 </body>
 </html>
